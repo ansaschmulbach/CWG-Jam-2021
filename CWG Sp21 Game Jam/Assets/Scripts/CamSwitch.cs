@@ -27,8 +27,10 @@ public class CamSwitch : MonoBehaviour
         
          player1.enabled = true;
          player1.GetComponent<PlayerMovement>().enabled = true;
-         player2.enabled = false;
+        player1.GetComponent<PlayerInteract>().enabled = true;
+        player2.enabled = false;
          player2.GetComponent<PlayerMovement>().enabled = false;
+        player2.GetComponent<PlayerInteract>().enabled = false;
 
     }
    
@@ -45,9 +47,10 @@ public class CamSwitch : MonoBehaviour
             
             player1.enabled = !player1.enabled;
             player1.GetComponent<PlayerMovement>().enabled = !player1.GetComponent<PlayerMovement>().enabled;
+            player1.GetComponent<PlayerInteract>().enabled = !player1.GetComponent<PlayerInteract>().enabled;
             player2.enabled = !player2.enabled;
             player2.GetComponent<PlayerMovement>().enabled = !player2.GetComponent<PlayerMovement>().enabled;
-
+            player2.GetComponent<PlayerInteract>().enabled = !player2.GetComponent<PlayerInteract>().enabled;
 
         }
     }

@@ -33,7 +33,15 @@ public class PlayerInteract : MonoBehaviour
             if(item1 != null)
             {
                 //Use the item
-                player1.GainHealth(5);
+                if (player1.maxHunger - player1.currentHunger >= 5)
+                {
+                    player1.GainHealth(5);
+                }
+                else
+                {
+                    player1.GainHealth(player1.maxHunger - player1.currentHunger);
+                }
+                //player1.GainHealth(5);
                 //Teleport the item
 
                 //Remove item from inventory
@@ -55,7 +63,15 @@ public class PlayerInteract : MonoBehaviour
 
                 //Teleport the item
                 //test
-                player2.GainHealth(5);
+                if (player2.maxHunger - player2.currentHunger >= 5)
+                {
+                    player2.GainHealth(5);
+                }
+                else
+                {
+                    player2.GainHealth(player2.maxHunger - player2.currentHunger);
+                }
+                //player2.GainHealth(5);
                 //Remove item from inventory
                 inventory.RemoveItem(item2);
             }

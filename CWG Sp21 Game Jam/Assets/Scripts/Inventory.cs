@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Inventory : MonoBehaviour
 {
     public GameObject[] inventory = new GameObject[10];
+    public Button[] InventoryButtons = new Button[10];
+
     // Start is called before the first frame update
     public void AddItem(GameObject item)
     {
@@ -17,6 +20,8 @@ public class Inventory : MonoBehaviour
             if (inventory [i] == null)
             {
                 inventory[i] = item;
+                // Update UI
+                //InventoryButtons[i].image.overrideSprite = item.GetComponent<SpriteRenderer>().sprite;
                 Debug.Log(item.name + " was added");
                 itemAdded = true;
                 // Do something with the object
@@ -24,6 +29,7 @@ public class Inventory : MonoBehaviour
                 break;
             }
         }
+
 
         //inventory full
         if(!itemAdded)
@@ -56,6 +62,10 @@ public class Inventory : MonoBehaviour
                 //We found the item - remove it
                 inventory[i] = null;
                 Debug.Log(item.name + " was removed from inventory");
+
+                //Update UI
+                //InventoryButtons[i].image.overrideSprite = null;
+
                 break;
             }
             
