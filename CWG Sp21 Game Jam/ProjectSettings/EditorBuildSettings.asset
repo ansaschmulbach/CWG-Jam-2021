@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/vivienne.unity
+    guid: 1a2d4487095e56d4ea554b133d4e2822
   m_configObjects: {}
