@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/vivienne.unity
     guid: 1a2d4487095e56d4ea554b133d4e2822
+  - enabled: 1
+    path: Assets/Scenes/death scene.unity
+    guid: 3c9e84faf7c9f86428b1c4489342d0c8
   m_configObjects: {}
