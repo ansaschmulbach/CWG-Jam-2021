@@ -21,30 +21,15 @@ public class Player : MonoBehaviour
     void Update()
     {
         TakeDamage((float)Time.deltaTime);
-
+        /*
         if (Input.GetKeyDown(KeyCode.Space))
         {
             TakeDamage(10);
         }
-      
-        //Timer stuff 
-        
-        
-
-       
-        /*
-        else
-        {
-            Time.timeScale = 0;
-        }
         */
-        void TakeDamage(float damage)
-        {
-            currentHunger -= damage;
-            hungerBar.SetHunger(currentHunger);
-        }
 
         //add functions to increase health, can replace if argument with collect resources later
+        
         if (Input.GetKeyDown(KeyCode.G))
         {
             if (maxHunger - currentHunger >= 5) {
@@ -55,11 +40,29 @@ public class Player : MonoBehaviour
             }
         }
         
-        void GainHealth(float gain)
-        {
-            currentHunger += gain;
-            hungerBar.SetHunger(currentHunger);
-        }
-        //add function so that when health reaches 0, play defeat screen and start game over.
     }
+
+
+
+    /*
+    else
+    {
+        Time.timeScale = 0;
+    }
+    */
+    void TakeDamage(float damage)
+    {
+        currentHunger -= damage;
+        hungerBar.SetHunger(currentHunger);
+    }
+
+        
+        
+    public void GainHealth(float gain)
+    {
+        currentHunger += gain;
+        hungerBar.SetHunger(currentHunger);
+    }
+        //add function so that when health reaches 0, play defeat screen and start game over.
+    
 }
