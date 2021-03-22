@@ -24,7 +24,10 @@ public class CamSwitch : MonoBehaviour
          Player [] players = FindObjectsOfType<Player>();
          player1 = players[0];
          player2 = players[1];
-        
+
+         cam1.GetComponent<CameraFollow>().cr_Player = player1.transform;
+         cam2.GetComponent<CameraFollow>().cr_Player = player2.transform;
+         
          player1.enabled = true;
          player1.GetComponent<PlayerMovement>().enabled = true;
         player1.GetComponent<PlayerInteract>().enabled = true;
