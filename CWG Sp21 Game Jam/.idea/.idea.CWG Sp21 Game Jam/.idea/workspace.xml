@@ -20,10 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="48eb4511-1408-4180-8ae2-f6daf9d34547" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Movement/PlatformController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Movement/PlatformController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Movement/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Movement/PlayerMovement.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/camera + movement.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/camera + movement.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CamSwitch.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/CamSwitch.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CWG Sp21 Game Jam/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CWG Sp21 Game Jam/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CWG Sp21 Game Jam/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CWG Sp21 Game Jam/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +34,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -44,6 +44,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CamSwitch.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement/PlatformController.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement/PlayerMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameManager.cs" />
       </list>
     </option>
   </component>
@@ -86,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616366191890</updated>
-      <workItem from="1616366223105" duration="24183000" />
+      <workItem from="1616366223105" duration="24888000" />
     </task>
     <servers />
   </component>
