@@ -38,6 +38,8 @@ public class PlayerMovement : MonoBehaviour
 
     private float yDelta;
     private float preDeltaY;
+    private bool isDying;
+    private float deathTimer;
 
     #endregion
 
@@ -53,13 +55,23 @@ public class PlayerMovement : MonoBehaviour
     }
 
     #endregion
-    
+
+    #region Update Method
+
     void Update()
     {
+
+        if (isDying)
+        {
+            Die();
+            return;
+        }
+        //Debug.Log("hi");
+        
         float xMov = Input.GetAxis("Horizontal");
         float yMov = Input.GetAxis("Vertical");
         bool space = Input.GetKeyDown("space");
-
+        
         Vector3 vel = Vector3.right * (xMov * m_speed);
 
         if (space && !isJumping)
@@ -69,8 +81,16 @@ public class PlayerMovement : MonoBehaviour
         else if (!isJumping)
         {
             vel += Vector3.up * (yMov * m_speed);
-            if (!touchingGround) {
-                //Destroy(this.gameObject);
+            if (!touchingGround)
+            {
+                float xPos = this.transform.position.x;
+                float yPos = this.transform.position.y;
+                this.transform.position = new Vector3(xPos, yPos, yPos + 10);
+                isDying = true;
+                deathTimer = 4f;
+                SetAnimator(0);
+                cr_rb.velocity = Vector2.down;
+                return;
             }
             this.cr_rb.velocity = vel;
         } 
@@ -80,8 +100,10 @@ public class PlayerMovement : MonoBehaviour
         }
         
         UpdateAnimator(xMov, yMov);
-
+        
     }
+
+    #endregion
 
     #region Jump Methods
 
@@ -124,7 +146,6 @@ public class PlayerMovement : MonoBehaviour
 
     int AnimatorState(float xMov, float yMov) 
     {
-        Debug.Log(yMov - Math.Abs(xMov * 2));
         if (isJumping)
         {
             return 0;
@@ -152,7 +173,11 @@ public class PlayerMovement : MonoBehaviour
     void UpdateAnimator(float xMov, float yMov)
     {
         int anim = AnimatorState(xMov, yMov);
-        switch (anim)
+        SetAnimator(anim);
+    }
+    void SetAnimator(int input)
+    {
+        switch (input)
         {
             case 0:
                 animator.SetBool("jump", true);
@@ -182,6 +207,22 @@ public class PlayerMovement : MonoBehaviour
     }
 
     #endregion
-    
+
+    #region Health/Death methods
+
+    void Die()
+    {
+        if (deathTimer >= 0)
+        {
+            deathTimer -= Time.deltaTime;
+            return;
+        }
+        
+        Destroy(this.gameObject);
+        
+    }
+
+    #endregion
+
 
 }
