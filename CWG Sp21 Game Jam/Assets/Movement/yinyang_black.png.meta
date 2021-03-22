@@ -1,0 +1,620 @@
+fileFormatVersion: 2
+guid: 88b5380022f9141a79950696a0ec74a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 388603785761359621
+    second: yinyang_black_0
+  - first:
+      213: -2723211815969908824
+    second: yinyang_black_1
+  - first:
+      213: -3125464809878559471
+    second: yinyang_black_2
+  - first:
+      213: -9102796590559783388
+    second: yinyang_black_3
+  - first:
+      213: -6020536906348314300
+    second: yinyang_black_4
+  - first:
+      213: -1808941922054278377
+    second: yinyang_black_5
+  - first:
+      213: -798600857521653343
+    second: yinyang_black_6
+  - first:
+      213: 9079930153629128428
+    second: yinyang_black_7
+  - first:
+      213: 5323512269126390213
+    second: yinyang_black_8
+  - first:
+      213: -840257815221535448
+    second: yinyang_black_9
+  - first:
+      213: -1278587647039013104
+    second: yinyang_black_10
+  - first:
+      213: -1640670661636457349
+    second: yinyang_black_11
+  - first:
+      213: 8927899226535164234
+    second: yinyang_black_12
+  - first:
+      213: 958307059692054056
+    second: yinyang_black_13
+  - first:
+      213: -3979067839552076186
+    second: yinyang_black_14
+  - first:
+      213: -1546954893625565658
+    second: yinyang_black_15
+  - first:
+      213: 3904055863106377508
+    second: yinyang_black_16
+  - first:
+      213: 2352645709176955756
+    second: yinyang_black_17
+  - first:
+      213: 1558996884068246789
+    second: yinyang_black_18
+  - first:
+      213: -7066326120040992504
+    second: yinyang_black_19
+  - first:
+      213: -1118823146381318351
+    second: yinyang_black_20
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yinyang_black_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2159
+        width: 2312
+        height: 1887
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5078da09519946500800000000000000
+      internalID: 388603785761359621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_1
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 0
+        width: 4232
+        height: 3982
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a797f41845353ad0800000000000000
+      internalID: -2723211815969908824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_2
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 2249
+        width: 910
+        height: 1805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1156439905e10a4d0800000000000000
+      internalID: -3125464809878559471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_3
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 2249
+        width: 913
+        height: 1805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4261c05cabe5ca180800000000000000
+      internalID: -9102796590559783388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_4
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 3449
+        width: 913
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 441caf3f491c27ca0800000000000000
+      internalID: -6020536906348314300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_5
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 2349
+        width: 910
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71374a4f7e855e6e0800000000000000
+      internalID: -1808941922054278377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_6
+      rect:
+        serializedVersion: 2
+        x: 5595
+        y: 2349
+        width: 914
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9791250cccae4f0800000000000000
+      internalID: -798600857521653343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 608
+        height: 1807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce61c600e54620e70800000000000000
+      internalID: 9079930153629128428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_8
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 248
+        width: 607
+        height: 1807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c156be143ae0e940800000000000000
+      internalID: 5323512269126390213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_9
+      rect:
+        serializedVersion: 2
+        x: 1495
+        y: 252
+        width: 610
+        height: 1807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d79fb08fdc654f0800000000000000
+      internalID: -840257815221535448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_10
+      rect:
+        serializedVersion: 2
+        x: 2292
+        y: 248
+        width: 613
+        height: 1811
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f790c2f4b814ee0800000000000000
+      internalID: -1278587647039013104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_11
+      rect:
+        serializedVersion: 2
+        x: 3198
+        y: 1185
+        width: 1107
+        height: 970
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cf0c3d9ba2b39e0800000000000000
+      internalID: -1640670661636457349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_12
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 1245
+        width: 917
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a49fc146b0546eb70800000000000000
+      internalID: 8927899226535164234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_13
+      rect:
+        serializedVersion: 2
+        x: 3369
+        y: 1172
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 826a1b681379c4d00800000000000000
+      internalID: 958307059692054056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_14
+      rect:
+        serializedVersion: 2
+        x: 3362
+        y: 1166
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6664156c1e287c8c0800000000000000
+      internalID: -3979067839552076186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_15
+      rect:
+        serializedVersion: 2
+        x: 3192
+        y: 192
+        width: 1110
+        height: 967
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62e55e968bc188ae0800000000000000
+      internalID: -1546954893625565658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_16
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 992
+        width: 10
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4279cb77f1efd2630800000000000000
+      internalID: 3904055863106377508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_17
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 328
+        width: 913
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c63e6d1cec646a020800000000000000
+      internalID: 2352645709176955756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_18
+      rect:
+        serializedVersion: 2
+        x: 5595
+        y: 328
+        width: 910
+        height: 827
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50524d8f76ba2a510800000000000000
+      internalID: 1558996884068246789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_19
+      rect:
+        serializedVersion: 2
+        x: 3366
+        y: 176
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80174e335dd5fed90800000000000000
+      internalID: -7066326120040992504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_black_20
+      rect:
+        serializedVersion: 2
+        x: 3357
+        y: 169
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137e471b6442970f0800000000000000
+      internalID: -1118823146381318351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

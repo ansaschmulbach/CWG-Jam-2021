@@ -1,0 +1,452 @@
+fileFormatVersion: 2
+guid: e5039002046b6495faf606f560d71125
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8323912538853198739
+    second: yinyang_white_0
+  - first:
+      213: -8704138936911034664
+    second: yinyang_white_1
+  - first:
+      213: -7137154485761169039
+    second: yinyang_white_2
+  - first:
+      213: 8302278623944961017
+    second: yinyang_white_3
+  - first:
+      213: -3426408486082779875
+    second: yinyang_white_4
+  - first:
+      213: -2475770716859065804
+    second: yinyang_white_5
+  - first:
+      213: -4782805007914029332
+    second: yinyang_white_6
+  - first:
+      213: -8269071220572899794
+    second: yinyang_white_7
+  - first:
+      213: -8272818753119883884
+    second: yinyang_white_8
+  - first:
+      213: 2460240293351712023
+    second: yinyang_white_9
+  - first:
+      213: 5946307991507839288
+    second: yinyang_white_10
+  - first:
+      213: 4533634856528203790
+    second: yinyang_white_11
+  - first:
+      213: 4484444591871423761
+    second: yinyang_white_12
+  - first:
+      213: 399909454886975764
+    second: yinyang_white_13
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: yinyang_white_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2245
+        width: 2455
+        height: 1809
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39bc3c32a5a748370800000000000000
+      internalID: 8323912538853198739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_1
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 2249
+        width: 913
+        height: 1805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d685cdd0cfa43780800000000000000
+      internalID: -8704138936911034664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_2
+      rect:
+        serializedVersion: 2
+        x: 2595
+        y: 0
+        width: 4232
+        height: 4015
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 179ae193fcbb3fc90800000000000000
+      internalID: -7137154485761169039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_3
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 2249
+        width: 917
+        height: 1805
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fbee8ecb6e973370800000000000000
+      internalID: 8302278623944961017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_4
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 3449
+        width: 910
+        height: 605
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d15e6a3c2a3f270d0800000000000000
+      internalID: -3426408486082779875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_5
+      rect:
+        serializedVersion: 2
+        x: 4595
+        y: 2349
+        width: 910
+        height: 1010
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a1d4476ab44add0800000000000000
+      internalID: -2475770716859065804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2268
+        height: 2055
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cee23598f2010adb0800000000000000
+      internalID: -4782805007914029332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_7
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 248
+        width: 607
+        height: 1807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e26b85b498b5e3d80800000000000000
+      internalID: -8269071220572899794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_8
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 248
+        width: 610
+        height: 1807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d6911ec2b013d80800000000000000
+      internalID: -8272818753119883884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_9
+      rect:
+        serializedVersion: 2
+        x: 2298
+        y: 248
+        width: 610
+        height: 1807
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 715e45b0387842220800000000000000
+      internalID: 2460240293351712023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_10
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 858
+        width: 1110
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83924e60d97858250800000000000000
+      internalID: 5946307991507839288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_11
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 862
+        width: 1110
+        height: 997
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0051bcb1e4baee30800000000000000
+      internalID: 4533634856528203790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_12
+      rect:
+        serializedVersion: 2
+        x: 3399
+        y: 449
+        width: 506
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 115fa61c892fb3e30800000000000000
+      internalID: 4484444591871423761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: yinyang_white_13
+      rect:
+        serializedVersion: 2
+        x: 3995
+        y: 548
+        width: 210
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 419bbd8c783cc8500800000000000000
+      internalID: 399909454886975764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
