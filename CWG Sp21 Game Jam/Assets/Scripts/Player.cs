@@ -20,15 +20,16 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      
+        TakeDamage((float)Time.deltaTime);
+
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            TakeDamage(2);
+            TakeDamage(10);
         }
       
         //Timer stuff 
         
-        TakeDamage((float)Time.deltaTime);
+        
 
        
         /*
@@ -47,7 +48,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.G))
         {
             if (maxHunger - currentHunger >= 5) {
-                GainHealth(5);
+                GainHealth(10);
             } else
             {
                 GainHealth(maxHunger - currentHunger);
