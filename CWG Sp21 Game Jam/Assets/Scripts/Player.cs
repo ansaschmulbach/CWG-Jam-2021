@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player : MonoBehaviour
 {
     public float maxHunger = 100f;
+    public float hungerSpeed;
     public float currentHunger;
     public Hunger hungerBar;
 
@@ -13,43 +14,17 @@ public class Player : MonoBehaviour
     {
         currentHunger = maxHunger;
         hungerBar.SetMaxHunger(maxHunger);
-        //
+        
         
     }
 
     // Update is called once per frame
     void Update()
     {
-        TakeDamage((float)Time.deltaTime);
-        /*
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(10);
-        }
-        */
+        TakeDamage((float)Time.deltaTime * hungerSpeed);
 
-        //add functions to increase health, can replace if argument with collect resources later
-        
-        if (Input.GetKeyDown(KeyCode.G))
-        {
-            if (maxHunger - currentHunger >= 5) {
-                GainHealth(10);
-            } else
-            {
-                GainHealth(maxHunger - currentHunger);
-            }
-        }
-        
     }
-
-
-
-    /*
-    else
-    {
-        Time.timeScale = 0;
-    }
-    */
+    
     void TakeDamage(float damage)
     {
         currentHunger -= damage;

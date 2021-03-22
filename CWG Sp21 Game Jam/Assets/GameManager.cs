@@ -22,17 +22,17 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    void LoadMainMenu()
+    public void LoadMainMenu()
     {
         
     }
 
-    void LoadGame()
+    public void LoadGame()
     {
         SceneManager.LoadScene("Main");
     }
 
-    void LoadDeathScene()
+    public void LoadDeathScene()
     {
         
     }
