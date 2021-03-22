@@ -22,10 +22,10 @@ public class Player : MonoBehaviour
     {
         TakeDamage((float)Time.deltaTime);
 
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            TakeDamage(10);
-        }
+        // if (Input.GetKeyDown(KeyCode.Space))
+        // {
+        //     TakeDamage(10);
+        // }
       
         //Timer stuff 
         
